@@ -31,7 +31,7 @@ function listen_twitch(identity, channel) {
     });
 }
 
-app.get('', (req, res, next) => {
+app.get('', function (req, res, next) {
     res.send(messages);
 });
 
